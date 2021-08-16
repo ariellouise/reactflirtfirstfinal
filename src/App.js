@@ -21,14 +21,15 @@ function App() {
       <Router>
         <Header />
         <Switch>
+          <Route path="/index.html" component={Home} />
+          <Route path="/match.html" component={Match} />
+          <Route path="/compare.html" component={Compare} />
+          <Route path="/inbox.html" component={Inbox} />
+          <Route path="/my-account.html" component={Myaccount} />
+          <Route path="/my-profile.html" component={Myprofile} />
+          <Route path="/userprofile.html" component={Userprofile} />
+          <Route path="/chat.html" component={Chat} />
           <Route exact path="/" component={Home} />
-          <Route path="/match" component={Match} />
-          <Route path="/compare" component={Compare} />
-          <Route path="/inbox" component={Inbox} />
-          <Route path="/myaccount" component={Myaccount} />
-          <Route path="/myprofile" component={Myprofile} />
-          <Route path="/userprofile" component={Userprofile} />
-          <Route path="/chat" component={Chat} />
         </Switch>
         <Modal />
         <Search />

@@ -26,7 +26,14 @@ class Userprofile extends React.Component {
           </div>
         </section>
         {/*Main content*/}
-        <div class="main-content-wrapper">
+      </div>
+    );
+  }
+}
+export default Userprofile;
+
+{
+  /*<div class="main-content-wrapper">
         <div class="page-content-inner pt--80 pt-md--60">
           <div class="container">
             <div class="row no-gutters mb--77 mb-md--57">
@@ -559,10 +566,5 @@ class Userprofile extends React.Component {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      
-    )
-  }
+                          </div>*/
 }
-export default Userprofile;

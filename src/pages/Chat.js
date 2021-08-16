@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../chatstyle.css";
 
 class Chat extends React.Component {
   render() {
