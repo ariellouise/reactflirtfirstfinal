@@ -52,18 +52,6 @@ class Modal extends React.Component {
                       </div>
                       <span class="user-badge sale">Online Now</span>
                     </div>
-                    <div class="user-image">
-                      <div class="user-image--holder">
-                        <a href="user-details.html">
-                          <img
-                            src="assets/img/products/prod-4.jpg"
-                            alt="User Image"
-                            class="primary-image"
-                          />
-                        </a>
-                      </div>
-                      <span class="user-badge sale">Online Now!</span>
-                    </div>
                   </div>
                 </div>
                 <div class="col-lg-6">
