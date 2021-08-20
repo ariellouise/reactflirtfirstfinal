@@ -67,6 +67,11 @@ class Header extends React.Component {
                                     <span class="mm-text">My Profile</span>
                                   </a>
                                 </li>
+                                <li>
+                                  <a href="login.html">
+                                    <span class="mm-text">Login</span>
+                                  </a>
+                                </li>
                               </ul>
                             </li>
                             <li class="mainmenu__item">

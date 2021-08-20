@@ -85,7 +85,7 @@ class Myaccount extends React.Component {
                       >
                         Account Details
                       </a>
-                      <a class="nav-link" href="login-register.html">
+                      <a class="nav-link" href="login.html">
                         Logout
                       </a>
                     </div>
@@ -93,7 +93,7 @@ class Myaccount extends React.Component {
                       <div class="tab-pane fade show active" id="dashboard">
                         <p>
                           Hello <strong>John</strong> (not <strong>John</strong>
-                          ? <a href="login-register.html">Log out</a>)
+                          ? <a href="login.html">Log out</a>)
                         </p>
                         <p>
                           From your account dashboard. you can easily check

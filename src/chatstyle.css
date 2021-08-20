@@ -1,22 +1,23 @@
 header.row {
-  margin-top: 15px;
+  margin-top: 35px;
   border-bottom: 1px solid #ccc;
 }
+
 #messages {
   height: calc(100vh - 140px);
   overflow-y: scroll;
   overflow-x: hidden;
 }
 .messageText {
-  background: pink;
-  color: black;
+  background: #292323;
+  color: white;
   padding: 10px;
   display: inline-block;
   border-radius: 30px;
 }
 .userMessageText {
-  background: thistle;
-  color: black;
+  background: #ff5151;
+  color: white;
 }
 .message {
   margin-top: 10px;

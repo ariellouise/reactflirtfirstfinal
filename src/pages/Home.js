@@ -37,6 +37,7 @@ const Home = () => {
                             }'
                 data-slick-responsive='[{"breakpoint": 768, "settings": {"arrows": false}}]'
               >
+                {/*broken background color, broken margin*/}
                 <div class="item">
                   <div
                     class="single-slide d-flex align-items-center bg-color"
@@ -114,156 +115,182 @@ const Home = () => {
               <h2>Flirt With These New Users!</h2>
             </div>
           </div>
-          <div class="row">
-            <div class="col-12">
-              <div
-                class="element-carousel"
-                data-slick-options='{
-                                "spaceBetween": 30,
-                                "slidesToShow": 3
-                            }'
-                data-slick-responsive='[
-                                {"breakpoint": 768, "settings": {"slidesToShow": 2}},
-                                {"breakpoint": 480, "settings": {"slidesToShow": 1}}
-                            ]'
-              >
-                <div class="item">
-                  <div class="ft-user">
-                    <div class="user-inner">
-                      <div class="user-image">
-                        <figure class="user-image--holder">
-                          <img
-                            src="assets/img/products/prod-1.jpg"
-                            alt="User"
-                          />
-                        </figure>
-                        <a href="user-profile.html" class="user-overlay"></a>
-                        <div class="user-action">
-                          <a
-                            data-toggle="modal"
-                            data-target="#userModal"
-                            class="action-btn"
-                          >
-                            <i class="la la-eye"></i>
-                          </a>
-                          <a href="inbox.html" class="action-btn">
-                            <i class="la la-heart-o"></i>
-                          </a>
-                          <a href="inbox.html" class="action-btn">
-                            <i class="la la-repeat"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="user-info plr--20">
-                        <h3 class="user-title">
-                          <a href="user-profile.html">User</a>
-                        </h3>
-                        <div class="user-info-bottom">
-                          <div class="user-price-wrapper">
-                            <span class="money">Syracuse NY</span>
-                          </div>
-                          <a href="compare.html" class="add-to-cart">
-                            <i class="la la-plus"></i>
-                            <span>Add To Compare</span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="col-lg-3 col-sm-6 mb--45">
+          <div class="ft-user HTfadeInUp">
+            <div class="user-inner">
+              <div class="user-image">
+                <figure class="user-image--holder">
+                  <img src="assets/img/products/prod-1.jpg" alt="User" />
+                </figure>
+                <a href="user-profile.html" class="user-overlay"></a>
+                <div class="user-action">
+                  <a
+                    data-toggle="modal"
+                    data-target="#userModal"
+                    class="action-btn"
+                  >
+                    <i class="la la-eye"></i>
+                  </a>
+                  <a href="inbox.html" class="action-btn">
+                    <i class="la la-heart-o"></i>
+                  </a>
+                  <a href="inbox.html" class="action-btn">
+                    <i class="la la-repeat"></i>
+                  </a>
                 </div>
-                <div class="item">
-                  <div class="ft-user">
-                    <div class="user-inner">
-                      <div class="user-image">
-                        <figure class="user-image--holder">
-                          <img
-                            src="assets/img/products/prod-3.jpg"
-                            alt="User"
-                          />
-                        </figure>
-                        <a href="user-profile.html" class="user-overlay"></a>
-                        <div class="user-action">
-                          <a
-                            data-toggle="modal"
-                            data-target="#userModal"
-                            class="action-btn"
-                          >
-                            <i class="la la-eye"></i>
-                          </a>
-                          <a href="inbox.html" class="action-btn">
-                            <i class="la la-heart-o"></i>
-                          </a>
-                          <a href="inbox.html" class="action-btn">
-                            <i class="la la-repeat"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="user-info plr--20">
-                        <h3 class="user-title">
-                          <a href="user-profile.html">User</a>
-                        </h3>
-                        <div class="user-info-bottom">
-                          <div class="user-price-wrapper">
-                            <span class="money">Utica NY</span>
-                          </div>
-                          <a href="compare.html" class="add-to-cart">
-                            <i class="la la-plus"></i>
-                            <span>Add To Compare</span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
+              </div>
+              <div class="user-info">
+                <div class="user-category"></div>
+                <h3 class="user-title">
+                  <a href="user-profile.html">User</a>
+                </h3>
+                <div class="user-info-bottom">
+                  <div class="user-price-wrapper">
+                    <span class="money">Endicott, NY</span>
                   </div>
+                  <a href="compare.html" class="add-to-cart pr--15">
+                    <i class="la la-plus"></i>
+                    <span>Add To Compare</span>
+                  </a>
                 </div>
-                <div class="item">
-                  <div class="ft-user">
-                    <div class="user-inner">
-                      <div class="user-image">
-                        <figure class="user-image--holder">
-                          <img
-                            src="assets/img/products/prod-4.jpg"
-                            alt="User"
-                          />
-                        </figure>
-                        <a href="user-profile.html" class="user-overlay"></a>
-                        <div class="user-action">
-                          <a
-                            data-toggle="modal"
-                            data-target="#userModal"
-                            class="action-btn"
-                          >
-                            <i class="la la-eye"></i>
-                          </a>
-                          <a href="inbox.html" class="action-btn">
-                            <i class="la la-heart-o"></i>
-                          </a>
-                          <a href="inbox.html" class="action-btn">
-                            <i class="la la-repeat"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="user-info plr--20">
-                        <h3 class="user-title">
-                          <a href="user-profile.html">User</a>
-                        </h3>
-                        <div class="user-info-bottom">
-                          <div class="user-price-wrapper">
-                            <span class="money">Rome NY</span>
-                          </div>
-                          <a href="compare.html" class="add-to-cart">
-                            <i class="la la-plus"></i>
-                            <span>Add To Compare</span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb--45">
+          <div class="ft-user HTfadeInUp">
+            <div class="user-inner">
+              <div class="user-image">
+                <figure class="user-image--holder">
+                  <img src="assets/img/products/prod-4.jpg" alt="User" />
+                </figure>
+                <a href="user-profile.html" class="user-overlay"></a>
+                <div class="user-action">
+                  <a
+                    data-toggle="modal"
+                    data-target="#userModal"
+                    class="action-btn"
+                  >
+                    <i class="la la-eye"></i>
+                  </a>
+                  <a href="inbox.html" class="action-btn">
+                    <i class="la la-heart-o"></i>
+                  </a>
+                  <a href="inbox.html" class="action-btn">
+                    <i class="la la-repeat"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="user-info">
+                <div class="user-category"></div>
+                <h3 class="user-title">
+                  <a href="user-profile.html">User</a>
+                </h3>
+                <div class="user-info-bottom">
+                  <div class="user-price-wrapper">
+                    <span class="money">Chittenango NY</span>
                   </div>
+                  <a href="compare.html" class="add-to-cart pr--15">
+                    <i class="la la-plus"></i>
+                    <span>Add To Compare</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb--45">
+          <div class="ft-user HTfadeInUp">
+            <div class="user-inner">
+              <div class="user-image">
+                <figure class="user-image--holder">
+                  <img src="assets/img/products/prod-2.jpg" alt="User" />
+                </figure>
+                <a href="user-profile.html" class="user-overlay"></a>
+                <div class="user-action">
+                  <a
+                    data-toggle="modal"
+                    data-target="#userModal"
+                    class="action-btn"
+                  >
+                    <i class="la la-eye"></i>
+                  </a>
+                  <a href="inbox.html" class="action-btn">
+                    <i class="la la-heart-o"></i>
+                  </a>
+                  <a href="inbox.html" class="action-btn">
+                    <i class="la la-repeat"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="user-info">
+                <div class="user-category"></div>
+
+                <h3 class="user-title">
+                  <a href="user-profile.html">User</a>
+                </h3>
+                <div class="user-info-bottom">
+                  <div class="user-price-wrapper">
+                    <span class="money">Chittenango NY</span>
+                  </div>
+                  <a href="compare.html" class="add-to-cart pr--15">
+                    <i class="la la-plus"></i>
+                    <span>Add To Compare</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb--45">
+          <div class="ft-user HTfadeInUp">
+            <div class="user-inner">
+              <div class="user-image">
+                <figure class="user-image--holder">
+                  <img src="assets/img/products/prod-2.jpg" alt="User" />
+                </figure>
+                <a href="user-profile.html" class="user-overlay"></a>
+                <div class="user-action">
+                  <a
+                    data-toggle="modal"
+                    data-target="#userModal"
+                    class="action-btn"
+                  >
+                    <i class="la la-eye"></i>
+                  </a>
+                  <a href="inbox.html" class="action-btn">
+                    <i class="la la-heart-o"></i>
+                  </a>
+                  <a href="inbox.html" class="action-btn">
+                    <i class="la la-repeat"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="user-info">
+                <div class="user-category"></div>
+
+                <h3 class="user-title">
+                  <a href="user-profile.html">User</a>
+                </h3>
+                <div class="user-info-bottom">
+                  <div class="user-price-wrapper">
+                    <span class="money">Chittenango NY</span>
+                  </div>
+                  <a href="compare.html" class="add-to-cart pr--15">
+                    <i class="la la-plus"></i>
+                    <span>Add To Compare</span>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       {/*New User End*/}
       <section class="feature-user-area mb--75 mb-md--55">
         <div class="container">
