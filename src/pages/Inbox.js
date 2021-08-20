@@ -7,7 +7,7 @@ class Inbox extends React.Component {
         {/*Breadcrumb*/}
         <section
           class="page-title-area bg-image ptb--80"
-          data-bg-image="assets/img/bg/page_title_bg.jpg"
+          data-bg-image="assets/img/bg/messagebreadcrumb.jpg"
         >
           <div class="container">
             <div class="row">
@@ -52,7 +52,7 @@ class Inbox extends React.Component {
                           </td>
                           <td class="user-thumbnail text-left">
                             <img
-                              src="assets/img/products/prod-02-70x88.jpg"
+                              src="assets/img/products/Zak_Bagans.jpeg"
                               alt="User Thumbnail"
                             />
                           </td>
@@ -81,7 +81,7 @@ class Inbox extends React.Component {
                           </td>
                           <td class="user-thumbnail text-left">
                             <img
-                              src="assets/img/products/prod-01-70x88.jpg"
+                              src="assets/img/products/austin.jpg"
                               alt="User Thumbnail"
                             />
                           </td>
@@ -110,7 +110,7 @@ class Inbox extends React.Component {
                           </td>
                           <td class="user-thumbnail text-left">
                             <img
-                              src="assets/img/products/prod-02-70x88.jpg"
+                              src="assets/img/products/nathan.jpg"
                               alt="User thumbnail"
                             />
                           </td>

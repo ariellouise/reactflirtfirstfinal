@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import searchForm from "./Search";
+import minicart from "./Cart";
 
 class Header extends React.Component {
   render() {
@@ -67,16 +69,11 @@ class Header extends React.Component {
                                     <span class="mm-text">My Profile</span>
                                   </a>
                                 </li>
-                                <li>
-                                  <a href="login.html">
-                                    <span class="mm-text">Login</span>
-                                  </a>
-                                </li>
                               </ul>
                             </li>
                             <li class="mainmenu__item">
-                              <a href="contact-us.html" class="mainmenu__link">
-                                <span class="mm-text">Contact Us</span>
+                              <a href="login.html" class="mainmenu__link">
+                                <span class="mm-text">Log In</span>
                               </a>
                             </li>
                           </ul>

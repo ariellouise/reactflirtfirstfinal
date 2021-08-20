@@ -1,8 +1,3 @@
-header.row {
-  margin-top: 35px;
-  border-bottom: 1px solid #ccc;
-}
-
 #messages {
   height: calc(100vh - 140px);
   overflow-y: scroll;
