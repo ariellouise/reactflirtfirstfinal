@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import searchForm from "./Search";
-import minicart from "./Cart";
+// import Cart from "./Cart";
 
 class Header extends React.Component {
   render() {
     return (
       <div>
         <header class="header">
-          <div class="header__inner fixed-header">
+          <div class="header__inner fixed-sticky">
             <div class="header__main">
               <div class="container-fluid">
                 <div class="row">
@@ -72,7 +71,7 @@ class Header extends React.Component {
                               </ul>
                             </li>
                             <li class="mainmenu__item">
-                              <a href="login.html" class="mainmenu__link">
+                              <a href="/Login" class="mainmenu__link">
                                 <span class="mm-text">Log In</span>
                               </a>
                             </li>
@@ -87,6 +86,7 @@ class Header extends React.Component {
                                 href="#searchForm"
                                 class="header-toolbar__btn toolbar-btn"
                               >
+                                <searchForm />
                                 <i class="la la-search"></i>
                               </a>
                             </div>
@@ -95,6 +95,7 @@ class Header extends React.Component {
                                 href="#miniCart"
                                 class="header-toolbar__btn toolbar-btn"
                               >
+                                {/* <Cart /> */}
                                 <i class="la la-heart-o"></i>
                                 <span>FF</span>
                               </a>

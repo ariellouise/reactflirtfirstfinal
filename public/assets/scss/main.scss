@@ -85,7 +85,6 @@ INDEX:
 
 ******************************/
 
-
 /*
     Defult Primary Color:       #002257
     Default Border Color:       #eeeeee
@@ -95,55 +94,49 @@ INDEX:
 
 */
 
-
-
 // Fonts
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,900|Abril+Fatface');
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,900|Abril+Fatface");
 
+// Base
 
-// Base 
-
-@import 'base/variables';
-@import 'base/mixins';
-@import 'base/typography';
+@import "base/variables";
+@import "base/mixins";
+@import "base/typography";
 
 // Utilities
-@import 'utilities/helper';
-@import 'utilities/common';
+@import "utilities/helper";
+@import "utilities/common";
 
-// Layout 
+// Layout
 
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/sidebar'; 
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sidebar";
 
 // Components
-@import 'components/banner';
-@import 'components/blog';
-@import 'components/button';
-@import 'components/carousel';
-@import 'components/comment';
-@import 'components/form';
-@import 'components/icon';
-@import 'components/mini-cart';
-@import 'components/modal';
-@import 'components/navigation';
-@import 'components/users';
-@import 'components/slider';
-@import 'components/table';
-@import 'components/tabs';
-@import 'components/widget';
+@import "components/banner";
+@import "components/blog";
+@import "components/button";
+@import "components/carousel";
+@import "components/comment";
+@import "components/form";
+@import "components/icon";
+@import "components/mini-cart";
+@import "components/modal";
+@import "components/navigation";
+@import "components/users";
+@import "components/slider";
+@import "components/table";
+@import "components/tabs";
+@import "components/widget";
 
 // Pages
-@import 'pages/cart';
-@import 'pages/checkout';
-@import 'pages/shop';
-@import 'pages/single-user';
-
+@import "pages/cart";
+@import "pages/checkout";
+@import "pages/shop";
+@import "pages/single-user";
 
 // Color
-@import 'utilities/color'; 
-@import 'utilities/spacing'; 
-
-
+@import "utilities/color";
+@import "utilities/spacing";

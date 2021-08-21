@@ -1,4 +1,5 @@
 import React, { Component, useEffect, useState } from "react";
+import Header from "../components/Header";
 
 const Home = () => {
   const [backendConnected, setBackendConnected] = useState(false);

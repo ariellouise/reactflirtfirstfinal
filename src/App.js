@@ -13,13 +13,16 @@ import Footer from "./components/Footer.js";
 import Modal from "./components/Modal";
 import Cart from "./components/Cart";
 import Search from "./components/Search";
+import Login from "./components/Login";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <div>
       <Router>
+        {/* <div style={{ marginBottom: 130 }}> */}
         <Header />
+        {/* </div> */}
         <Switch>
           <Route path="/index.html" component={Home} />
           <Route path="/match.html" component={Match} />
@@ -28,6 +31,7 @@ function App() {
           <Route path="/my-account.html" component={Myaccount} />
           <Route path="/my-profile.html" component={Myprofile} />
           <Route path="/userprofile.html" component={Userprofile} />
+          <Route path="/Login" component={Login} />
           <Route path="/chat.html" component={Chat} />
           <Route exact path="/" component={Home} />
         </Switch>
