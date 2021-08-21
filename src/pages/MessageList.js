@@ -6,7 +6,7 @@ export const MessageList = ({ messages, setMessages }) => {
           return (
             <ReceivedMessage
               key={index}
-              text={message.text}
+              content={message.content}
               timestamp={message.timestamp}
             />
           );
@@ -70,18 +70,18 @@ const SentMessage = (props) => {
           <span onClick={editClicked}>edit</span> |{" "}
           <span onClick={deleteClicked}>delete</span>
         </div>
-        <span className="messageText">{props.message.text}</span>
+        <span className="messageText">{props.message.content}</span>
         <div className="timestamp">{props.message.timestamp.toString()}</div>
       </div>
     </div>
   );
 };
 
-const ReceivedMessage = ({ text, timestamp }) => {
+const ReceivedMessage = ({ content, timestamp }) => {
   return (
     <div className="row message">
       <div className="col-10">
-        <span className="messageText userMessageText">{text}</span>
+        <span className="messageText userMessageText">{content}</span>
         <div className="timestamp">{timestamp.toString()}</div>
       </div>
     </div>
